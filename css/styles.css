@@ -10,7 +10,8 @@
 }
 
 body {
-  background-color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  background-color:#ffffff;
   color: #434455;
   font-size: 16px;
   line-height: 1.5;
@@ -122,7 +123,7 @@ body {
   justify-content: center;
 }
 
-.one-button {
+.one-bttn {
   display: flex;
   cursor: pointer;
   font-weight: 500;
@@ -140,31 +141,31 @@ body {
   margin: 48px auto 188px auto;
 }
 
-.one-button:hover,
-.one-button:focus {
+.one-bttn:hover,
+.one-bttn:focus {
   background-color: #404bbf;
 }
 
 /* section-two */
 
-.section2 {
+.sectiontwo {
   display: flex;
   justify-content: center;
   margin: 120px auto;
   width: 1440px;
 }
 
-.section2-title {
+.sectiontwo-title {
   display: none;
 }
 
-.section2-list ul {
+.sectiontwo-list ul {
   display: flex;
   gap: 24px;
   margin: auto 156px;
 }
 
-.section2-list li {
+.sectiontwo-list li {
   width: calc(100% / 4);
   list-style-type: none;
 }
@@ -203,13 +204,13 @@ body {
   margin-bottom: 72px;
 }
 
-.section3-list ul {
+.sectionthree-list ul {
   display: flex;
   gap: 24px;
   margin: auto 156px;
 }
 
-.section3-list li {
+.sectionthree-list li {
   width: calc(100% / 4);
   list-style-type: none;
   border: 1px solid #e7e9fc;
@@ -217,14 +218,14 @@ body {
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-.section3-list h3 {
+.sectionthree-list h3 {
   display: flex;
   margin: 32px 16px 4px 16px;
   justify-content: center;
   align-items: center;
 }
 
-.section3-list p {
+.sectionthree-list p {
   display: flex;
   margin-top: 4px;
   margin-bottom: 32px;
@@ -282,7 +283,7 @@ body {
   margin-bottom: 72px;
 }
 
-.section4-list ul {
+.sectionfour-list ul {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -294,7 +295,7 @@ body {
   border: 1px solid #e7e9fc;
 }
 
-.section4-list2 {
+.sectionfour-listtwo {
   display: flex;
   justify-content: space-between;
   gap: 24px;
@@ -303,22 +304,22 @@ body {
   list-style-type: none;
 }
 
-.section4-list h3,
-.section4-list2 h3 {
+.sectionfour-list h3,
+.sectionfour-listtwo h3 {
   display: flex;
   margin-top: 32px;
   margin-left: 16px;
   margin-bottom: 8px;
 }
 
-.section4-list2 p,
-.section4-list p {
+.sectionfour-listtwo p,
+.sectionfour-list p {
   display: flex;
   margin-left: 16px;
   margin-bottom: 32px;
 }
 
-.section4-list ul {
+.sectionfour-list ul {
   display: flex;
   gap: 24px;
 }
