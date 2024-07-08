@@ -26,73 +26,77 @@
     </style> -->
   </head>
   <body>
-    <div class="container">
-    <header>
-      <nav class="head-navigation">
-        <a href="./index.html" class="head-logo">
-          WEB<span class="span-logo">Studio</span></a
-        >
-        <ul class="container-pages">
-          <li><a href="./index.html" class="header-nav">Studio</a></li>
-          <li><a href="" class="header-nav">Portfolio</a></li>
-          <li><a href="" class="header-nav">Contacts</a></li>
-        </ul>
-      </nav>
-      <address class="header-address">
-        <ul class="container-address">
-          <li>
-            <a href="mailto:info@devstudio.com" class="header-b"
-              >info@devstudio.com</a
-            >
-          </li>
-          <li>
-            <a href="tel:+110001111111" class="header-b">+11 (000) 111-11-11</a>
-          </li>
-        </ul>
-      </address>
+    <header class="body-header">
+      <div class="container">
+        <nav class="head-navigation">
+          <a href="./index.html" class="head-logo">
+            WEB<span class="span-logo">Studio</span></a
+          >
+          <ul class="container-pages">
+            <li><a href="./index.html" class="header-nav">Studio</a></li>
+            <li><a href="" class="header-nav">Portfolio</a></li>
+            <li><a href="" class="header-nav">Contacts</a></li>
+          </ul>
+        </nav>
+        <address class="header-address">
+          <ul class="container-address">
+            <li>
+              <a href="mailto:info@devstudio.com" class="header-b"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li>
+              <a href="tel:+110001111111" class="header-b"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+          </ul>
+        </address>
+      </div>
     </header>
-  </div>
     <main>
       <section class="section-one">
-        <h1 class="one-maintitle">Effective Solutions for Your Business</h1>
-        <button
-          class="one-bttn"
-          type="button"
-          style="font-family: 'Roboto', sans-serif"
-        >
-          Order Service
-        </button>
+        <div class="container containerone">
+          <h1 class="one-maintitle">Effective Solutions for Your Business</h1>
+          <button
+            class="one-bttn"
+            type="button"
+            style="font-family: 'Roboto', sans-serif"
+          >
+            Order Service
+          </button>
+        </div>
       </section>
 
       <!-- Our Future Content -->
 
       <section class="sectiontwo">
-        <h2 class="sectiontwo-title">Our Futures</h2>
-        <div class="sectiontwo-list">
-          <ul>
-            <li>
-              <h3 class="two-list">Strategy</h3>
+        <div class="container sectiontwo-list">
+          <h2 class="visually-hidden">Our Futures</h2>
+          <ul class="container-future">
+            <li class="two-list">
+              <h3 class="htree">Strategy</h3>
               <p class="two-paragraph">
                 Our goal is to identify the business problem to walk away with
                 the perfect and creative solution.
               </p>
             </li>
-            <li>
-              <h3 class="two-list">Punctuality</h3>
+            <li class="two-list">
+              <h3 class="htree">Punctuality</h3>
               <p class="two-paragraph">
                 Bring the key message to the brand's audience for the best price
                 within the shortest possible time.
               </p>
             </li>
-            <li>
-              <h3 class="two-list">Diligence</h3>
+            <li class="two-list">
+              <h3 class="htree">Diligence</h3>
               <p class="two-paragraph">
                 Research and confirm brands that present the strongest digital
                 growth opportunities and minimize risk.
               </p>
             </li>
-            <li>
-              <h3 class="two-list">Technologies</h3>
+            <li class="two-list">
+              <h3 class="htree">Technologies</h3>
               <p class="two-paragraph">
                 Design practice focused on digital experiences. We bring forth a
                 deep passion for problem-solving.
@@ -105,22 +109,26 @@
       <!-- Our Team Content -->
 
       <section class="section-three">
-        <h2 class="three-title">Our Team</h2>
-        <div class="sectionthree-list">
-          <ul>
+        <div class="container">
+          <h2 class="three-title">Our Team</h2>
+          <ul class="container-team">
             <li class="three-list">
               <img
                 src="./images/img-mark.jpg"
                 width="264"
                 alt="Mark Guerrero"
               />
-              <h3 class="three-titleli">Mark Guerrero</h3>
-              <p class="three-paragraph">Product Designer</p>
+              <div class="div-team">
+                <h3 class="three-titleli">Mark Guerrero</h3>
+                <p class="three-paragraph">Product Designer</p>
+              </div>
             </li>
             <li class="three-list">
               <img src="./images/img-tom.jpg" width="264" alt="Tom Ford" />
-              <h3 class="three-titleli">Tom Ford</h3>
-              <p class="three-paragraph">Frontend Developer</p>
+              <div class="div-team">
+                <h3 class="three-titleli">Tom Ford</h3>
+                <p class="three-paragraph">Frontend Developer</p>
+              </div>
             </li>
             <li class="three-list">
               <img
@@ -128,8 +136,10 @@
                 width="264"
                 alt="Camila Garcia"
               />
-              <h3 class="three-titleli">Camila Garcia</h3>
-              <p class="three-paragraph">Marketing</p>
+              <div class="div-team">
+                <h3 class="three-titleli">Camila Garcia</h3>
+                <p class="three-paragraph">Marketing</p>
+              </div>
             </li>
             <li class="three-list">
               <img
@@ -137,8 +147,10 @@
                 width="264"
                 alt="Daniel Wilson"
               />
-              <h3 class="three-titleli">Daniel Wilson</h3>
-              <p class="three-paragraph">UI Designer</p>
+              <div class="div-team">
+                <h3 class="three-titleli">Daniel Wilson</h3>
+                <p class="three-paragraph">UI Designer</p>
+              </div>
             </li>
           </ul>
         </div>
@@ -147,9 +159,9 @@
       <!-- Our Portfolio Content -->
 
       <section class="section-four">
-        <h2 class="four-title">Our Portfolio</h2>
-        <div class="sectionfour-list">
-          <ul>
+        <div class="container">
+          <h2 class="four-title">Our Portfolio</h2>
+          <ul class="sectionfour-ulist">
             <li class="four-list">
               <img
                 src="./images/img-01.jpg"
@@ -157,8 +169,10 @@
                 height="300"
                 alt="Banking App"
               />
+              <div>
               <h3 class="four-titleli">Banking App</h3>
               <p class="four-paragraph">App</p>
+            </div>
             </li>
             <li class="four-list">
               <img
@@ -167,8 +181,10 @@
                 height="300"
                 alt="Cashless Payment"
               />
+              <div>
               <h3 class="four-titleli">Cashless Payment</h3>
               <p class="four-paragraph">Marketing</p>
+            </div>
             </li>
             <li class="four-list">
               <img
@@ -177,13 +193,11 @@
                 height="300"
                 alt="Meditation App"
               />
+              <div>
               <h3 class="four-titleli">Meditation App</h3>
               <p class="four-paragraph">App</p>
+            </div>
             </li>
-          </ul>
-        </div>
-        <div class="sectionfour-listtwo">
-          <ul>
             <li class="four-list">
               <img
                 src="./images/img-04.jpg"
@@ -191,8 +205,10 @@
                 height="300"
                 alt="Taxi Service"
               />
+              <div>
               <h3 class="four-titleli">Taxi Service</h3>
               <p class="four-paragraph">Marketing</p>
+            </div>
             </li>
             <li class="four-list">
               <img
@@ -201,8 +217,10 @@
                 height="300"
                 alt="Screen Illustrations"
               />
+              <div>
               <h3 class="four-titleli">Screen Illustrations</h3>
               <p class="four-paragraph">Design</p>
+            </div>
             </li>
             <li class="four-list">
               <img
@@ -211,8 +229,10 @@
                 height="300"
                 alt="Online Courses"
               />
+              <div>
               <h3 class="four-titleli">Online Courses</h3>
               <p class="four-paragraph">Marketing</p>
+            </div>
             </li>
           </ul>
         </div>
