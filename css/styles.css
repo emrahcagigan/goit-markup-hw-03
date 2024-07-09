@@ -14,9 +14,9 @@ body {
   line-height: 1.5;
 }
 
-main div ul li img {
+/*main div ul li img {
   display: block;
-}
+}*/
 
 /* header */
 
@@ -367,7 +367,7 @@ header nav .head-logo {
 }
 
 .four-list {
-  flex-basis: calc((100% - 3 * 24px) / 4);
+  flex-basis: calc((100% - 2 * 24px) / 3);
   /*width: calc((100% - 72px) / 3);*/
   list-style-type: none;
 }
