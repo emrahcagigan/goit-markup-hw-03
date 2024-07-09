@@ -343,6 +343,7 @@ header nav .head-logo {
 /* section-four */
 
 .section-four {
+  display: block;
   padding: 120px 0;
 
   color: #2e2f42;
@@ -375,8 +376,8 @@ header nav .head-logo {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
-  margin: 0 0 8px 0;
-  /*margin-bottom: 8px;*/
+  margin-bottom: 8px;
+  /*margin: 0 0 8px 0;*/
 }
 
 .sectionfour-list h3,
@@ -428,12 +429,21 @@ footer {
   background-color: #2e2f42;
 }
 
+.four-title {
+  text-align: center;
+  color: #2e2f42;
+  font-size: 36px;
+  line-height: 1.11;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+
 .section-footer {
   font-family: "raleway";
   font-weight: 700;
   font-size: 18px;
   height: 312px;
-  margin-top: 135px;
   padding-top: 100px;
 }
 .footer-logo {
