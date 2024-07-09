@@ -366,11 +366,12 @@ header nav .head-logo {
 }
 
 .four-list {
-  width: calc((100% - 72px) / 3);
+  flex-basis: calc((100% - 3 * 24px) / 4);
+  /*width: calc((100% - 72px) / 3);*/
   list-style-type: none;
 }
 
-.four-list div {
+.four-list .appname-cat {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
