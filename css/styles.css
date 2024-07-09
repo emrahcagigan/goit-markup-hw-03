@@ -371,7 +371,7 @@ header nav .head-logo {
   list-style-type: none;
 }
 
-.four-list .appname-cat {
+.four-list div {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
